@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servlar | Serviços Elétricos, Hidráulicos e Reformas em Salvador</title>
+    <meta
+      name="description"
+      content="Servlar Serviços Elétricos, Hidráulicos e Reformas em Geral em Salvador-BA. Atendimento 24h para residências e comércios. Solicite seu orçamento no WhatsApp."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                navy: '#0B2545',
+                yellow: '#F2C14E',
+                blue: '#1D4E89'
+              }
+            },
+            boxShadow: {
+              glow: '0 10px 25px -10px rgba(242, 193, 78, 0.7)'
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-800 antialiased">
+    <header class="fixed inset-x-0 top-0 z-50 bg-brand-navy/95 text-white backdrop-blur">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
+        <a href="#hero" class="text-lg font-bold tracking-wide">Servlar</a>
+        <nav class="hidden items-center gap-6 md:flex">
+          <a href="#sobre" class="text-sm hover:text-brand-yellow">Sobre</a>
+          <a href="#servicos" class="text-sm hover:text-brand-yellow">Serviços</a>
+          <a href="#avaliacoes" class="text-sm hover:text-brand-yellow">Avaliações</a>
+          <a href="#contato" class="rounded-full bg-brand-yellow px-4 py-2 text-sm font-semibold text-brand-navy">WhatsApp</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section
+        id="hero"
+        class="relative flex min-h-screen items-center overflow-hidden pt-24"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1800&q=80"
+          alt="Profissional técnico executando serviço elétrico"
+          class="absolute inset-0 h-full w-full object-cover"
+        />
+        <div class="absolute inset-0 bg-gradient-to-r from-brand-navy/90 via-brand-navy/75 to-brand-blue/60"></div>
+
+        <div class="relative mx-auto max-w-6xl px-4 py-16 text-white md:px-6">
+          <span class="mb-4 inline-flex items-center rounded-full bg-white/15 px-4 py-2 text-sm">
+            ⭐ 4,5 estrelas (27 avaliações) • Aberto 24 horas
+          </span>
+          <h1 class="max-w-3xl text-4xl font-black leading-tight md:text-6xl">
+            Serviços Elétricos e Hidráulicos 24h em Salvador
+          </h1>
+          <p class="mt-6 max-w-2xl text-lg text-slate-100 md:text-xl">
+            Atendimento rápido, profissional e com preço justo para clientes residenciais e comerciais em Salvador-BA.
+          </p>
+          <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+            <a
+              href="https://wa.me/5571999999999?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
+              target="_blank"
+              rel="noreferrer"
+              class="rounded-full bg-brand-yellow px-8 py-4 text-center text-base font-bold text-brand-navy shadow-glow transition hover:scale-105"
+            >
+              Solicitar Orçamento no WhatsApp
+            </a>
+            <a
+              href="tel:+5571999999999"
+              class="rounded-full border-2 border-white px-8 py-4 text-center text-base font-bold transition hover:bg-white hover:text-brand-navy"
+            >
+              Ligar Agora
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="reveal mx-auto max-w-6xl px-4 py-20 md:px-6">
+        <div class="grid gap-8 md:grid-cols-2 md:items-center">
+          <div>
+            <h2 class="text-3xl font-bold text-brand-navy md:text-4xl">Sobre a Servlar</h2>
+            <p class="mt-5 text-lg leading-relaxed text-slate-700">
+              A Servlar Serviços Elétricos, Hidráulicos e Reformas em Geral atua com foco em qualidade, segurança e agilidade.
+              Nossa equipe entrega atendimento personalizado, soluções eficientes e compromisso com prazos em serviços
+              residenciais e comerciais em toda Salvador.
+            </p>
+            <p class="mt-4 text-lg leading-relaxed text-slate-700">
+              Com experiência prática no dia a dia, trabalhamos para resolver desde chamados emergenciais até reformas
+              completas, sempre com profissionalismo e transparência.
+            </p>
+          </div>
+          <div class="rounded-2xl bg-white p-8 shadow-xl">
+            <ul class="space-y-4 text-slate-700">
+              <li class="flex items-start gap-3"><span class="mt-1 text-brand-yellow">✔</span><span>Atendimento 24h em Salvador-BA</span></li>
+              <li class="flex items-start gap-3"><span class="mt-1 text-brand-yellow">✔</span><span>Qualidade técnica e serviço limpo</span></li>
+              <li class="flex items-start gap-3"><span class="mt-1 text-brand-yellow">✔</span><span>Compromisso com prazo e preço justo</span></li>
+              <li class="flex items-start gap-3"><span class="mt-1 text-brand-yellow">✔</span><span>Suporte para residências e empresas</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos" class="reveal bg-white py-20">
+        <div class="mx-auto max-w-6xl px-4 md:px-6">
+          <h2 class="text-center text-3xl font-bold text-brand-navy md:text-4xl">Serviços Oferecidos</h2>
+          <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <article class="rounded-2xl border border-slate-200 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+              <div class="text-3xl">⚡</div>
+              <h3 class="mt-4 text-xl font-semibold text-brand-navy">Instalações Elétricas</h3>
+              <p class="mt-2 text-slate-600">Montagem e adequação de instalações com segurança e padrão técnico.</p>
+            </article>
+            <article class="rounded-2xl border border-slate-200 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+              <div class="text-3xl">🛠️</div>
+              <h3 class="mt-4 text-xl font-semibold text-brand-navy">Reparos Elétricos</h3>
+              <p class="mt-2 text-slate-600">Correção de falhas, curtos e manutenção de circuitos elétricos.</p>
+            </article>
+            <article class="rounded-2xl border border-slate-200 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+              <div class="text-3xl">💧</div>
+              <h3 class="mt-4 text-xl font-semibold text-brand-navy">Conserto de Vazamentos</h3>
+              <p class="mt-2 text-slate-600">Detecção rápida e reparo eficiente para evitar desperdícios e danos.</p>
+            </article>
+            <article class="rounded-2xl border border-slate-200 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+              <div class="text-3xl">🚰</div>
+              <h3 class="mt-4 text-xl font-semibold text-brand-navy">Instalações Hidráulicas</h3>
+              <p class="mt-2 text-slate-600">Execução completa para cozinhas, banheiros e áreas de serviço.</p>
+            </article>
+            <article class="rounded-2xl border border-slate-200 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+              <div class="text-3xl">🏠</div>
+              <h3 class="mt-4 text-xl font-semibold text-brand-navy">Reformas Residenciais</h3>
+              <p class="mt-2 text-slate-600">Reformas em geral com organização, acabamento e pontualidade.</p>
+            </article>
+            <article class="rounded-2xl border border-slate-200 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+              <div class="text-3xl">🧰</div>
+              <h3 class="mt-4 text-xl font-semibold text-brand-navy">Manutenção Preventiva</h3>
+              <p class="mt-2 text-slate-600">Inspeções e ajustes para reduzir riscos e custos futuros.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="reveal mx-auto max-w-6xl px-4 py-20 md:px-6">
+        <h2 class="text-center text-3xl font-bold text-brand-navy md:text-4xl">Diferenciais</h2>
+        <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+          <div class="rounded-xl bg-brand-navy p-5 text-center text-white">Atendimento 24 horas</div>
+          <div class="rounded-xl bg-brand-navy p-5 text-center text-white">Preço justo</div>
+          <div class="rounded-xl bg-brand-navy p-5 text-center text-white">Profissional experiente</div>
+          <div class="rounded-xl bg-brand-navy p-5 text-center text-white">Atendimento emergencial</div>
+          <div class="rounded-xl bg-brand-navy p-5 text-center text-white">Serviço entregue no prazo</div>
+        </div>
+      </section>
+
+      <section id="avaliacoes" class="reveal bg-white py-20">
+        <div class="mx-auto max-w-6xl px-4 md:px-6">
+          <h2 class="text-center text-3xl font-bold text-brand-navy md:text-4xl">Avaliações de Clientes</h2>
+          <p class="mt-3 text-center text-lg text-slate-600">⭐⭐⭐⭐☆ 4,5 estrelas com 27 avaliações.</p>
+          <div class="mt-10 grid gap-6 md:grid-cols-3">
+            <blockquote class="rounded-2xl border border-slate-200 p-6">
+              <p class="text-slate-700">"Serviço entregue no prazo."</p>
+              <cite class="mt-4 block font-semibold text-brand-navy">Cliente residencial</cite>
+            </blockquote>
+            <blockquote class="rounded-2xl border border-slate-200 p-6">
+              <p class="text-slate-700">"Reparo de vazamento bem feito e preço justo."</p>
+              <cite class="mt-4 block font-semibold text-brand-navy">Cliente comercial</cite>
+            </blockquote>
+            <blockquote class="rounded-2xl border border-slate-200 p-6">
+              <p class="text-slate-700">"Profissional experiente e educado."</p>
+              <cite class="mt-4 block font-semibold text-brand-navy">Cliente local</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="reveal bg-brand-navy py-20 text-white">
+        <div class="mx-auto max-w-4xl px-4 text-center md:px-6">
+          <h2 class="text-3xl font-bold md:text-5xl">Precisa de um profissional agora?</h2>
+          <p class="mx-auto mt-4 max-w-2xl text-lg text-slate-200">
+            A Servlar está pronta para atender emergências e serviços agendados 24h por dia em Salvador.
+          </p>
+          <a
+            href="https://wa.me/5571999999999?text=Olá!%20Preciso%20de%20um%20profissional%20agora."
+            target="_blank"
+            rel="noreferrer"
+            class="mt-8 inline-block rounded-full bg-brand-yellow px-10 py-5 text-lg font-extrabold text-brand-navy shadow-glow transition hover:scale-105"
+          >
+            Falar no WhatsApp
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-slate-950 py-8 text-center text-sm text-slate-300">
+      Servlar Serviços Elétricos, Hidráulicos e Reformas em Geral · Salvador - BA · Atendimento 24 horas
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
